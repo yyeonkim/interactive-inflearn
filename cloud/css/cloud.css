@@ -1,0 +1,49 @@
+/* 구름 */
+.cloud-wrap {
+  position: fixed;
+}
+
+.clouds2 {
+  top: 40rem;
+  right: 60rem;
+  z-index: 10;
+}
+
+.cloud-wrap img {
+  position: absolute;
+  width: 30rem;
+}
+
+/* 구름 각각 위치 잡아주기 */
+.cloud-wrap img:nth-child(1) {
+  top: -10rem;
+  left: 40rem;
+}
+.cloud-wrap img:nth-child(2) {
+  top: 60rem;
+  left: 0;
+}
+.cloud-wrap img:nth-child(3) {
+  top: 120rem;
+  left: 40rem;
+}
+.cloud-wrap img:nth-child(4) {
+  top: 180rem;
+  left: -10rem;
+}
+.cloudWrap img:nth-child(5) {
+  top: 220rem;
+  left: 50rem;
+}
+.cloudWrap img:nth-child(6) {
+  top: 280rem;
+  left: -14rem;
+}
+.cloudWrap img:nth-child(7) {
+  top: 350rem;
+  left: 50rem;
+}
+.cloudWrap img:nth-child(8) {
+  top: 420rem;
+  left: -19rem;
+}

@@ -1,0 +1,21 @@
+@import "./cloud.css";
+@import "./scroll.css";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: skyblue;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  z-index: 100;
+  font-size: 1.6rem;
+  width: 60%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
