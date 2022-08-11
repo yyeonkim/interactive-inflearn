@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  overflow-x: hidden;
+  background: linear-gradient(#4b0220, #691c46);
+}
+
+main {
+  position: relative;
+}
+main .progress {
+  position: fixed;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  z-index: 10000;
+}
+main .progress .progress-bar {
+  position: fixed;
+  width: 0%;
+  background: #ffa600;
+  height: 3px;
+  z-index: 10001;
+  transition: width 0.1s ease;
+}
+
+section {
+  position: relative;
+  width: 100%;
+}
+section.main-page {
+  padding-bottom: 5rem;
+}
+section.main-page h1.title {
+  position: fixed;
+  text-align: center;
+  color: #fff;
+  font-size: 2.7rem;
+  padding-top: 20vh;
+  width: 40rem;
+  left: calc(50% - 20rem);
+}
+section.main-page .image-wrap {
+  height: 100vh;
+}
+section.main-page .image-wrap .parallax-image {
+  position: fixed;
+  width: 100%;
+  height: inherit;
+  background-position: top center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  perspective: 30rem;
+}
+section.main-page .image-wrap .parallax-image:nth-child(1) {
+  background-image: url("../image/main_0.png");
+}
+section.main-page .image-wrap .parallax-image:nth-child(2) {
+  background-image: url("../image/main_1.png");
+}
+section.main-page .image-wrap .parallax-image:nth-child(3) {
+  background-image: url("../image/main_2.png");
+}
+section.main-page .image-wrap .parallax-image:nth-child(4) {
+  background-image: url("../image/main_3.png");
+}
+section.main-page .image-wrap .parallax-image:nth-child(5) {
+  background-image: url("../image/main_4.png");
+}
+section.main-page .image-wrap .parallax-image:nth-child(6) {
+  background-image: url("../image/main_5.png");
+  background-size: cover;
+}
+section.main-page .image-wrap .parallax-image:nth-child(7) {
+  background-image: url("../image/main_6.png");
+  background-size: cover;
+}
+section.sub-page {
+  margin-top: 40rem;
+  min-height: 60vh;
+}
+section.sub-page .inner-wrap {
+  position: relative;
+}
+section.sub-page .inner-wrap .content-wrap {
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem 4rem;
+  width: 70rem;
+}
+@media only screen and (max-width: 768px) {
+  section.sub-page .inner-wrap .content-wrap {
+    width: 100%;
+  }
+}
+section.sub-page .inner-wrap .content-wrap p {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #fff;
+  margin: 2rem 0;
+}
+section.sub-page.last-page {
+  margin-top: 20rem;
+}
+section.sub-page.last-page .inner-wrap {
+  width: 100%;
+  padding: 5rem 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+section.sub-page.last-page .inner-wrap .content-wrap {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/*# sourceMappingURL=style.css.map */
