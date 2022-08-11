@@ -1,0 +1,31 @@
+main {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(black, #691c46);
+}
+
+main #parallax-6 {
+  position: absolute;
+  background-image: url("../image/main_6.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: top;
+  width: 100%;
+  height: 110rem;
+  top: -110rem;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+main .inner-wrap {
+  margin: 0 auto;
+  padding: 50rem 0;
+  width: 90rem;
+  height: 450rem;
+}
+
+@media only screen and (max-width: 768px) {
+  main .inner-wrap {
+    width: 100%;
+  }
+}

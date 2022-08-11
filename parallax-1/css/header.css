@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  background: linear-gradient(#4b0220, #691c46);
+  padding-bottom: 5rem;
+  height: 110rem;
+}
+
+header .parallax-image {
+  position: fixed;
+  width: 100%;
+  height: inherit;
+  background-position: top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+#parallax-0 {
+  background-image: url("../image/main_0.png");
+}
+#parallax-1 {
+  background-image: url("../image/main_1.png");
+}
+#parallax-2 {
+  background-image: url("../image/main_2.png");
+}
+#parallax-3 {
+  background-image: url("../image/main_3.png");
+}
+#parallax-4 {
+  background-image: url("../image/main_4.png");
+}
+#parallax-5 {
+  background-image: url("../image/main_5.png");
+  transform: scale(1.1);
+}
