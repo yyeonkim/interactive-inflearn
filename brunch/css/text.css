@@ -1,0 +1,18 @@
+.wrap__text {
+  position: relative;
+  width: 100%;
+  margin-top: 30%;
+  background-color: white;
+  z-index: 20;
+}
+
+.warp__inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  margin-bottom: 8rem;
+}

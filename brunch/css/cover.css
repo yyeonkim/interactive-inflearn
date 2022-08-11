@@ -1,0 +1,35 @@
+/* 타이틀 영역 */
+.wrap__title {
+  position: fixed;
+  height: 40%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin-top: 10%;
+  font-size: 4rem;
+  z-index: 10;
+}
+
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.cover-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../image/bg.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

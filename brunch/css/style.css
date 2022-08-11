@@ -1,0 +1,16 @@
+@import "./cover.css";
+@import "./text.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
