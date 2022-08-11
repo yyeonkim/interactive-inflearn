@@ -1,0 +1,29 @@
+:root {
+  --city-width: calc(100vw * 1.2);
+  --city-height: calc(100vh * 1.2);
+}
+html {
+  font-size: 10px;
+}
+body {
+  overflow: hidden;
+
+  /* 이미지 가운데 위치 */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.human {
+  width: 15%;
+  max-width: 25rem;
+  position: fixed;
+  z-index: 10;
+}
+
+.city {
+  position: fixed;
+  width: 110%;
+  object-fit: cover;
+}
