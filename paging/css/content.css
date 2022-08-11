@@ -1,0 +1,46 @@
+.wrap__content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 42rem;
+  transform: translate(-50%, -50%) rotate(-25deg);
+  visibility: hidden;
+}
+
+/* 현재 페이지만 보이기 */
+.wrap__content.active {
+  visibility: visible;
+}
+
+.wrap__content img {
+  width: 20rem;
+  transition: all 0.8s cubic-bezier(0.86, 0.005, 0.31, 0.995);
+  opacity: 0;
+}
+
+/* 순차적으로 이미지 이동 */
+.wrap__content img.img0 {
+  transform: translate(-300%, 0);
+  transition-delay: 0.1s;
+}
+
+.wrap__content img.img1 {
+  transform: translate(0, -300%);
+  transition-delay: 0.18s;
+}
+
+.wrap__content img.img2 {
+  transform: translate(0, 300%);
+  transition-delay: 0.26s;
+}
+
+.wrap__content img.img3 {
+  transform: translate(300%, 0);
+  transition-delay: 0.3s;
+}
+
+/* 현재 페이지에 해당하는 이미지는 움직이거나 투명해지지 않는다 */
+.wrap__content img.active {
+  transform: translate(0, 0);
+  opacity: 1;
+}

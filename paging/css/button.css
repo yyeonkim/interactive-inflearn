@@ -1,0 +1,12 @@
+.wrap__button {
+  position: fixed;
+  bottom: 5rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.wrap__button button {
+  padding: 1rem 4rem;
+  background: #fff;
+  font-size: 2rem;
+}

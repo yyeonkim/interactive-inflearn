@@ -1,0 +1,13 @@
+@import "./reset.css";
+@import "./text.css";
+@import "./content.css";
+@import "./button.css";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #222;
+  overflow: hidden;
+}
