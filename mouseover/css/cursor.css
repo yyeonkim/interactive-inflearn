@@ -1,0 +1,15 @@
+.cursor-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cursor-item .circle {
+  border-radius: 50%;
+  background-color: blue;
+  opacity: 0.5;
+  width: 10rem;
+  height: 10rem;
+  transition: all 0.2s ease-in-out;
+  margin: -5rem 0 0 -5rem;
+}

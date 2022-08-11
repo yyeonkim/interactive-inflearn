@@ -1,0 +1,21 @@
+button {
+  font-size: 1.6rem;
+  display: inline-block;
+  text-decoration: none;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 1.5rem 0;
+  width: 50%;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background: white;
+  color: blue;
+}
+
+.button__yes {
+  border-right: solid white 1px;
+}

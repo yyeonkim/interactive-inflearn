@@ -1,0 +1,17 @@
+@import "./reset.css";
+@import "./box.css";
+@import "./cursor.css";
+@import "./button.css";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  overflow: hidden;
+}

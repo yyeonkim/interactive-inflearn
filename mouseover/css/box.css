@@ -1,0 +1,18 @@
+.box {
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+  width: 30rem;
+  border: solid white 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box__top {
+  padding: 2rem 0;
+  border-bottom: solid 1px white;
+}
+
+.box__bottom {
+  display: flex;
+}
