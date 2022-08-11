@@ -1,0 +1,20 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
+}
+
+img {
+  position: fixed;
+  width: 40%;
+}
+
+video {
+  position: fixed;
+  width: 40%;
+}
